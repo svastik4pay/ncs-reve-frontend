@@ -1,0 +1,265 @@
+html, body{
+margin: 0;
+height: 100%;
+overflow-x: hidden !important;
+/* overflow-y: hidden; */
+font-family: 'Avenir Next';
+font-style: normal;
+}
+
+/* Height of screen without navbar */
+.max-height{
+    height: calc(100% - 90px);
+}
+
+/* Height */
+
+.h100{
+    height:100%;
+}
+
+#login_background{
+
+position: relative;
+width: 414px;
+height: 896px;
+
+background: linear-gradient(139.33deg, #FFFFFF 39.75%,
+#0F75BC 114.15%);
+}
+
+#login-logo{
+    position: absolute;
+    left: 36.47%;
+    right: 36.23%;
+    top: 10.71%;
+    bottom: 72.62%;
+    }
+
+.login-header{
+position: absolute;
+width: 34px;
+height: 19px;
+left: 136px;
+top: 305px;
+font-size: 14px;
+}
+
+.email-header{
+    left: 45px;
+}
+
+.email-text{
+position: absolute;
+font-size: 14px;
+font-weight: 500;
+}
+
+.mobile-text{
+position: absolute;
+left: 108px;
+top:1px;
+font-size: 14px;
+font-weight: 500;
+}
+
+.switch1{
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+}
+
+.slider1 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #20547B;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider1.round{
+    border-radius: 24px;
+    width: 50px;
+    height: 19px;
+    top: 3px;
+}
+
+.slider1.round:before{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+.slider1:before{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.login-form a .login-button{
+position: absolute;
+width: 270px;
+height: 39px;
+left: 72px;
+top: 489px;
+
+background: #1E3D58;
+border-radius: 5px;
+color: white;
+}
+
+#checkbox{
+box-sizing: border-box;
+
+position: absolute;
+width: 27px;
+height: 27px;
+left: 143px;
+top: 552px;
+
+background: rgba(255, 255, 255, 0.65);
+border: 1px solid #B3CEE1;
+border-radius: 5px;
+}
+
+.login-form .text-remember{
+position: absolute;
+width: 99px;
+height: 51px;
+left: 179px;
+top: 541px;
+
+
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: -0.3px;
+
+color: #1E3D58;
+}
+
+.forgot-pass-text{
+position: absolute;
+width: 97px;
+height: 32px;
+left: 158px;
+top: 637px;
+
+font-family: 'Avenir Next';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: -0.3px;
+text-decoration-line: underline;
+
+color: #212529;
+}
+
+.noaccount-text{
+    position: absolute;
+width: 208px;
+height: 32px;
+left: 145px;
+top: 686px;
+
+font-family: 'Avenir Next';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.3px;
+text-decoration-line: underline;
+
+color: #212529;
+}
+
+.createacc-text{
+position: absolute;
+width: 208px;
+height: 32px;
+left: 162px;
+top: 700px;
+
+font-family: 'Avenir Next';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.3px;
+text-decoration-line: underline;
+
+color: #212529;
+}
+
+#ncs-footer{
+position: absolute;
+left: 41.79%;
+right: 41.79%;
+top: 86.5%;
+bottom: 8.57%;
+}
+
+.footer .company-footer p{
+
+position: absolute;
+width: 153px;
+height: 14px;
+left: 131px;
+top: 819px;
+
+font-family: 'Avenir Next';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 14px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #212529;
+}
+
+.footer .company-footer .powered{
+
+position: absolute;
+width: 79px;
+height: 14px;
+left: 168px;
+top: 837px;
+
+font-family: 'Avenir Next';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 14px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.3px;
+
+}
