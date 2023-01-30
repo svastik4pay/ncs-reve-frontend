@@ -39,6 +39,16 @@ height: auto;
 }
 
 
+.email-text{
+    text-align: right;
+    
+}
+
+.mobile-text{
+    text-align: left;
+    justify-content: left;
+}
+
 /* The switch - the box around the slider */
 .switch {
     position: relative;
@@ -131,17 +141,30 @@ height: auto;
 }
 
 /* Support links */
+
 .remember-me{
     margin-bottom: 50px;
     display: flex;
     font-size: 15px;
+    justify-content: center;
 }
 
 #remeber-me-box{
     width: 27px;
     height: 27px;
-    border: 1px solid rgba(179, 206, 225, 1);
+    border: 1px solid;
+    border-color: rgba(179, 206, 225, 1);
     background: rgba(255, 255, 255, 0.65);
+    display: inline-block;
+    font-size: 0;
+    margin-right: 10px;
+    border-radius: 5px;
+
+}
+
+.text-remember{
+    display: inline-block;
+    margin-top: 3px;
 }
 
 .forgot-pass-text{
@@ -164,3 +187,49 @@ height: auto;
     font-size: 10px;
 }
 
+/* Iphone SE 370px screens */
+@media screen and (max-width: 380px) {
+    
+    #login-logo{
+        width: 25%;
+    }
+
+    .login-screen{
+        margin-top: 40px;
+    }
+
+    .email-text, .email-text-slider, .slider-button, .mobile-text{
+        font-size: 12px;
+        padding-top: -10px;
+    }
+
+    #usernamelogin, #userpassword{
+        width: 285px;
+        height: 40px;
+        margin-top: 0;
+    }
+
+    .login-button{
+        width: 210px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .text-remember{
+        font-size: 13px;
+    }
+
+    #remember-me-box{
+        width: 5px;
+        height: 5px;
+    }
+
+    .support-links{
+        margin-top: -30px;
+    }
+
+    .forgot-pass-text, .noaccount-text, .createacc-text{
+        font-size: 10px;
+    }
+
+  }
