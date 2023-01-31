@@ -191,11 +191,12 @@ height: auto;
 @media screen and (max-width: 380px) {
     
     #login-logo{
-        width: 25%;
+        width: 20%;
     }
 
     .login-screen{
-        margin-top: 40px;
+        margin-top: 45px;
+        margin-bottom: 0px;
     }
 
     .email-text, .email-text-slider, .slider-button, .mobile-text{
@@ -204,15 +205,24 @@ height: auto;
     }
 
     #usernamelogin, #userpassword{
-        width: 285px;
+        width: 275px;
         height: 40px;
         margin-top: 0;
+    }
+
+    #usernamelogin{
+        margin-bottom: 15px;
+    }
+
+    #userpassword{
+        margin-bottom: 10px;
     }
 
     .login-button{
         width: 210px;
         height: 35px;
         font-size: 15px;
+        margin-top: 6px;
     }
 
     .text-remember{
@@ -230,6 +240,14 @@ height: auto;
 
     .forgot-pass-text, .noaccount-text, .createacc-text{
         font-size: 10px;
+    }
+
+    #ncs-footer{
+        width: 13%;
+    }
+
+    .noacc-createacc{
+        margin-bottom: -15px;
     }
 
   }
