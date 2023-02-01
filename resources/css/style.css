@@ -36,12 +36,12 @@ height: auto;
 
 .email-text, .mobile-text{
     color: rgba(30, 61, 88, 1);
+    font-size: 14px;
 }
-
 
 .email-text{
     text-align: right;
-    
+
 }
 
 .mobile-text{
@@ -159,7 +159,6 @@ height: auto;
     font-size: 0;
     margin-right: 10px;
     border-radius: 5px;
-
 }
 
 .text-remember{
