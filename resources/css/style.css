@@ -193,7 +193,7 @@ height: auto;
 }
 
 /* Iphone SE 370px screens */
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 376px) {
     
     #login-logo{
         width: 20%;
@@ -254,18 +254,7 @@ height: auto;
     .noacc-createacc{
         margin-bottom: -15px;
     }
-
-    /* landing */
-
-    .landingwelcome-text{
-        font-size: 20px !important;
-    }
-
-    /* profile */
-
-
   }
-
 
   /* Landing page */
 
@@ -278,6 +267,10 @@ height: auto;
     width: 18px;
     height: 12px;
     top: 6px;
+}
+
+.landing-welcome{
+    padding-top: 11px;
 }
 
 .landingwelcome-text{
@@ -306,6 +299,11 @@ height: auto;
 
 .landing-bottom-apps{
     padding-top: 15px;
+}
+
+.landing-top-apps, .landing-bottom-apps{
+    padding-right: 35px;
+    padding-left: 35px;
 }
 
 .caption-apps{
@@ -388,18 +386,9 @@ height: auto;
     height: 78px;
 }
 
-/* #land-nav {
-    position: fixed;
+.menu-text{
+    padding-bottom: 25px;
 }
-
-.landing-logo{
-    position: fixed;
-}
-
-.landing-qrcode img{
-    padding-left: 10px;
-    position: fixed;
-} */
 
 .modal-backdrop.show{
     opacity: 0 !important;
@@ -516,3 +505,119 @@ height: auto;
     position: fixed;
     top: 0px;
 }
+
+/* Iphone SE 370px screens */
+@media screen and (max-width: 376px) {
+
+    /* landing */
+    .landing-apps{
+        margin-top: -10px;
+    }
+
+    .landingbackimg{
+        margin-top: -5px;
+        background-image: url(../images/landingpage_background.png);
+        background-size: 375px 667px;
+    }
+
+    .landingwelcome-text{
+        font-size: 25px;
+    }
+
+    .managecards-img, .transfer-img, .collectmoney-img, .widthdrawl-img{
+        width: 120px !important;
+        height: 120px;
+        margin: auto;
+    }
+
+    .image-manage, .image-transfer, .image-collect, .image-funds{
+        width: 50px;
+        height: 56px;
+        margin-top: 15px;
+    }
+
+    .caption-apps{
+        padding-top: 5px;
+        font-size: 13px;
+    }
+
+    .landing-top-apps img{
+        padding-top: 10px;
+    }
+    
+    .landing-bottom-apps img{
+        padding-top: 10px;
+    }
+    
+    .landing-top-apps, .landing-bottom-apps{
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    .landing-footer{
+        margin-top: -100px;
+    }
+    
+    /* Navbar */
+
+    #navbarOffcanvasLg{
+        top: 99px;
+        width: 300px;
+    }
+
+    .offcanvas-nav{
+        font-size: 12px;
+    }
+
+    .menu-text{
+    padding-bottom: 15px;
+    }
+
+    .form-check input{
+        width: 80px !important;
+        height: 15px !important;
+    }
+
+    /* profile */
+
+    .profile-pic{
+        padding-top: 50px;
+    }
+
+    .profile-name{
+        font-size: 20px;
+    }
+
+    .profile-email{
+        margin-top: -18px;
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    .options-heading, .option-balance, .option-settings{
+        font-size: 12px;
+        padding-top: 8px;
+    }
+
+    .option-logout{
+        padding-top: 60px;
+        font-size: 14px;
+    }
+
+    .option-terms{
+        font-size: 12px;
+    }
+
+    .profile-pic img{
+        width: 92px;
+        height: 92px;
+    }
+
+    .profile-optionslist{
+        width: 200px;
+        height: 340px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+  }
