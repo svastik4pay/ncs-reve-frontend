@@ -12,7 +12,7 @@ html, body{
 margin: 0;
 height: 100%;
 overflow-x: hidden !important;
-/* overflow-y: hidden; */
+overflow-y: hidden;
 font-family: 'metropolislight';
 font-style: normal;
 }
@@ -406,6 +406,10 @@ height: auto;
 }
 
 /* Profile */
+
+.profile-body{
+    overflow-y: visible !important;
+}
 
 .profile-pic{
     padding-top: 80px;
