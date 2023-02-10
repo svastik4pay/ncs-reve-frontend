@@ -418,6 +418,14 @@ height: auto;
     margin-top: -13px;
 }
 
+.profile, .setting{
+    padding-top: 10px;
+}
+
+.profile-img, .setting-img{
+    margin-left: 17px;
+}
+
 .profile-optionslist{
     width: 398px;
     height: 426px;
@@ -428,14 +436,22 @@ height: auto;
     margin-right: 10px;
 }
 
-.option-profile, .option-balance{
-    padding-top: 30px;
-    padding-left: 30px;
+.option-profile, .option-settings{
+    padding-top: 4px;
+    margin-left: 12px;
+}
+
+.option-balance{
+    padding-top: 8px;
 }
 
 .option-settings{
-    padding-left: 30px;
+    padding-left: 35px;
     padding-top: 20px;
+}
+
+.settingtext{
+   padding-left: 12px;
 }
 
 .option-logout{
@@ -517,7 +533,6 @@ height: auto;
     .landingbackimg{
         margin-top: -5px;
         background-image: url(../images/landingpage_background.png);
-        background-size: 375px 667px;
     }
 
     .landingwelcome-text{
@@ -594,7 +609,7 @@ height: auto;
         font-weight: 100;
     }
 
-    .options-heading, .option-balance, .option-settings{
+    .option-profile, .option-balance, .option-settings{
         font-size: 12px;
         padding-top: 8px;
     }
@@ -621,3 +636,4 @@ height: auto;
     }
 
   }
+  
