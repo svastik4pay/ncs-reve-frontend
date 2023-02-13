@@ -22,6 +22,22 @@ font-style: normal;
     height: calc(100% - 90px);
 }
 
+/* WELCOME PAGE */
+
+.welcome-background{
+    background-image: url(../images/welcomescreen.svg);
+    background-size: cover;
+    border-radius: 0px;
+    padding-top: 233.55px;
+    padding-left: 105.09px;
+}
+
+.welcome-image{
+    width: 203.26px;
+    height: 271.23px;
+    
+}
+
 /* Background */
 .login_background{
 background: linear-gradient(139.33deg, #FFFFFF 39.75%, #0F75BC 114.15%);
@@ -263,6 +279,20 @@ height: auto;
     background-size: cover;
 }
 
+.scroll-header{
+    /* background-color: #346baf; */
+    position: sticky;
+    top: 0;
+    background-image: url(../images/header-background.svg);
+}
+
+.landing-logo img{
+    width: 80px;
+    height: 80px;
+    color: #FFFFFF;
+    margin-top: -20px;
+}
+
 .landing-top-logo{
     width: 18px;
     height: 12px;
@@ -324,6 +354,17 @@ height: auto;
 .form-check-input{
     background-color: #FFFFFF;
 }
+
+/* .all-content{
+    transform: translateX(70%);
+    transition: 0.6s ease;
+} */
+
+/* .all-content.open{
+    transform: translateX(80%);
+} */
+
+
 
 /* NAVBAR */
 
@@ -529,6 +570,13 @@ height: auto;
     .landing-apps{
         margin-top: -10px;
     }
+
+    .landing-logo img{
+    width: 65px;
+    height: 65px;
+    color: #FFFFFF;
+    margin-top: -15px;
+}
 
     .landingbackimg{
         margin-top: -5px;
